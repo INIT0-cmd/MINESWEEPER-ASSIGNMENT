@@ -1,0 +1,11 @@
+{
+    "name": "DOM-Builder",
+    "main": "DOM-Builder.js",
+    "moduleType": [
+      "amd",
+      "globals"
+    ],
+    "dependencies": {
+      "snoopy": "~0.1.0"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "name": "minesweeper",
+    "description": "",
+    "main": "",
+    "moduleType": [],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "DOM-Builder": "1.x",
+      "observable-array": "0.x"
+    }
+  }

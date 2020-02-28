@@ -1,0 +1,27 @@
+{
+    "name": "subscribable.js",
+    "main": "subscribable.js",
+    "version": "2.1.0",
+  
+    "description": "custom event listening in JS",
+    "moduleType": [
+      "amd",
+      "globals",
+      "node"
+    ],
+    "keywords": [
+      "custom events",
+      "event",
+      "listen",
+      "subscribe"
+    ],
+    "license": "MIT",
+  
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ]
+  }

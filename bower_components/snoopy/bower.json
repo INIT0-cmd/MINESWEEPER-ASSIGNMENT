@@ -1,0 +1,23 @@
+{
+    "name": "snoopy",
+    "main": "snoopy.js",
+
+    "description": "Observable objects in JS",
+    "moduleType": [
+      "globals"
+    ],
+    "keywords": [
+      "Observable",
+      "watch",
+      "subscribe",
+      "observe"
+    ],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ]
+  }

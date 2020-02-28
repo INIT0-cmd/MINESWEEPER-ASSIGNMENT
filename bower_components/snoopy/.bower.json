@@ -1,0 +1,33 @@
+{
+    "name": "snoopy",
+    "main": "snoopy.js",
+ 
+    "description": "Observable objects in JS",
+    "moduleType": [
+      "globals"
+    ],
+    "keywords": [
+      "Observable",
+      "watch",
+      "subscribe",
+      "observe"
+    ],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "version": "0.1.1",
+    "_release": "0.1.1",
+    "_resolution": {
+      "type": "version",
+      "tag": "0.1.1",
+      "commit": "ae9b75dd7d4cda17cd768bdcc688ad0c473ac76b"
+    },
+   
+    "_target": "~0.1.0",
+    "_originalSource": "snoopy"
+  }

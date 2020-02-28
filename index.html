@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Minesweeper Assignment</title>
+		<meta name="viewport" content="initial-scale=1">
+		<link rel="stylesheet" href="css/demo.css">
+	</head>
+	<body>
+		<div class="ms">
+			<input type="number" min="1" max="99" maxlength="2" class="w" value="9"> &times;
+			<input type="number" min="1" max="99" maxlength="2" class="h" value="9">
+			<button class="start">restart</button>
+			<output class="numMines">12</output>,
+			<output class="numFlagged">0</output>
+
+			<div class="field-wrapper">
+				<ul class="cell-parent"></ul>
+				<div class="field-overlay"></div>
+			</div>
+		</div>
+
+
+		<script src="bower_components/snoopy/snoopy.js"></script>
+		<script src="bower_components/subscribable.js/subscribable.js"></script>
+		<script src="bower_components/observable-array/observable-array.js"></script>
+		<script src="bower_components/observable-array/dom-observer.js"></script>
+		<script src="bower_components/DOM-Builder/dom.js"></script>
+
+		<!-- Minesweeper game main logic -->
+		<script src="js/minesweeper.js"></script>
+
+		<!-- browser / DOM implementation of minesweeper game -->
+		<script src="js/demo.js"></script>
+	</body>
+</html>

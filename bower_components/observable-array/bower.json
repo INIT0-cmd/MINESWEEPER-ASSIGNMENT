@@ -1,0 +1,17 @@
+{
+    "name": "observable-array",
+    "main": "observable-array.js",
+    "description": "",
+    "moduleType": [],
+    "license": "MIT",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "subscribable.js": "2.x"
+    }
+  }

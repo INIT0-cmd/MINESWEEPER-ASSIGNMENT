@@ -1,0 +1,16 @@
+{
+    "name": "subscribable.js",
+    "version": "2.1.0",
+    "description": "custom event listening in JS",
+    "main": "subscribable.js",
+  
+    "keywords": [
+      "custom events",
+      "event",
+      "listen",
+      "subscribe"
+    ],
+   
+    "license": "MIT"
+
+  }

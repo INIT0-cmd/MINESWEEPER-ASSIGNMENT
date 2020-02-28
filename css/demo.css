@@ -1,0 +1,97 @@
+
+/*
+	non-cell styles
+*/
+
+body {
+	background: #ddd;
+}
+
+
+/* restart button after game over */
+.ms .start {
+	display: none;
+}
+
+.ms.won .start,
+.ms.lost .start {
+	display: initial;
+}
+
+
+/* cell containers */
+.ms .field-wrapper {
+	position: relative;
+}
+
+.ms .cell-parent {
+	padding: 0;
+	list-style: none;
+	border: 2px inset #ccc;
+	overflow: hidden;
+}
+
+
+/* overlay over cell parent after game over to prevent click */
+.ms .field-overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.ms.won .field-overlay,
+.ms.lost .field-overlay {
+	display: block;
+}
+
+
+
+
+/*
+	cell styles
+*/
+
+
+/* LIs are cells */
+.ms li {
+	width: 24px;
+	height: 24px;
+	float: left;
+	border: 2px outset #ccc;
+	text-align: center;
+	line-height: 22px;
+	cursor: default;
+	background: #e7e7e7;
+	box-sizing: border-box;
+}
+
+
+/* revealed */
+.ms .revealed {
+	border: 1px solid #ccc;
+	border-width: 1px 0 0 1px;
+}
+
+
+/* revealed numbers */
+.ms [data-num-adj].revealed:before {
+	content: attr(data-num-adj);
+}
+
+
+/* flagged */
+.ms .flagged:before,
+.ms.won .mine:before {
+	content: 'P';
+}
+
+
+/* unflagged mines after loss */
+.ms.lost .mine:not(.flagged):before {
+	content: '*';
+	line-height: 28px;
+	color: red;
+}
